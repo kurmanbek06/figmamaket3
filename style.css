@@ -166,12 +166,15 @@
     color: #222222;
 }
 .imgSect{
-    width: 1299px;
+    margin-top: 20px;
+    width: 1140px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .img3SectB{
+    width: 352px;
+    height: 270px;
     margin: 10px 0 10px 0;
     border-radius: 20px;
 }
