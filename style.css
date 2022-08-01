@@ -138,6 +138,9 @@
 .imgHead{
     margin-bottom: 30px;
 }
+.imgHead1{
+    width: 1000px;
+}
 .menu3{
     margin: 60px 0 0 0;
     display: flex;
@@ -173,8 +176,8 @@
     justify-content: space-around;
 }
 .img3SectB{
-    width: 352px;
-    height: 270px;
+    width: 302px;
+    height: 230px;
     margin: 10px 0 10px 0;
     border-radius: 20px;
 }
@@ -267,4 +270,21 @@
     background: #3043A9;
     border-radius: 28px;
     border: 15px solid #3043A9;
+}
+
+
+@media (max-width: 1024px) {
+    .container{
+        width: 1000px;
+    }
+    .imgHead{
+        width: 1000px;
+    }
+    .imgSect{
+        width: 1000px;
+    }
+    .strelka{
+        margin-left: -25px;
+    }
+    
 }
