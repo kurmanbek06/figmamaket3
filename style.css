@@ -288,3 +288,98 @@
     }
     
 }
+@media (max-width: 992px) {
+    .container{
+        width: 940px;
+    }
+    .imgHead{
+        width: 940px;
+    }
+    .imgHead1{
+        width: 950px;
+    }
+    .img3SectB{
+        width: 262px;
+        height: 200px;
+    }
+    .imgSect{
+        width:940px ;
+    }
+    .strelka{
+        margin-left: -25px;
+    }
+    .img2Text3{
+        width: 270px;
+    }
+    .textN2{
+        width: 300px;
+    }
+    .textN3{
+        width: 300px;
+    }
+
+}
+@media (max-width: 768px) {
+    .container{
+        width: 720px;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-around;
+    }
+    .textMenu{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .imgHead{
+        width: 700px;
+    }
+    .imgHead1{
+        width: 690px;
+    }
+    .menu2Text2{
+        font-size: 40px;
+    }
+    .imgSect{
+        width: 720px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nitrution{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media (max-width: 576px) {
+    .container{
+        width: 550px;
+    }
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .menu2Text2{
+        font-size: 30px;
+    }
+    .menu2Text3{
+        width: 300px;
+    }
+    .imgHead{
+        width: 550px;
+    }
+    .imgHead1{
+        width: 540px;
+    }
+    .menu3Text2{
+        font-size: 30px;
+    }
+    .imgSect{
+        width: 540px;
+    }
+    .imgN{
+        width: 540px;
+        height: 400px;
+    }
+    
+}
